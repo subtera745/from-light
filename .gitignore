@@ -17,3 +17,6 @@ html
 
 # Ignore Drupal's salt file
 salt.txt
+
+# ignore editor backups
+*~
