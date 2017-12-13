@@ -1,0 +1,22 @@
+uuid: 3dc514bf-f9bf-41f4-8d2c-6950bf12ee5d
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - first
+_core:
+  default_config_hash: 4QlSnWBcxxKMIFRM8sbu_MjSkcp3NjGgnVrc-lynQHI
+id: first_login
+theme: first
+region: header
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }
