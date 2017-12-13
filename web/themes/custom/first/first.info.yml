@@ -1,0 +1,15 @@
+name: first
+description: first custom theme
+type: theme
+core: 8.x
+
+libraries:
+ - first/global-css
+ - first/global-js
+ 
+regions:
+    headline: Headline
+    header: Header
+    content: Content
+    sidebar: Sidebar
+    footer: Footer
