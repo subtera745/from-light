@@ -182,7 +182,7 @@ tracked in git and should not be added to your SCM.
 This is an example adding [PHP Code Sniffer](https://packagist.org/packages/squizlabs/php_codesniffer) 
 to your environment.
 
-1. `composer require squizlabs/php_codesniffer`
+1. `bin/composer require squizlabs/php_codesniffer`
 2. `git add composer.json composer.lock`
 3. `git commit -m "Added PHP_CodeSniffer to environment."`
 
@@ -201,7 +201,7 @@ directories are ignored in git and should not be added to your SCM.
 This is an example adding [Webform](https://www.drupal.org/project/webform) to 
 your environment and activating it.
 
-1. `composer require drupal/webform`
+1. `bin/composer require drupal/webform`
 2. `bin/drush en webform`
 3. `make config-export`
 4. `git add composer.json composer.lock config/core.extension.yml`
