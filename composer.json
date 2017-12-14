@@ -37,7 +37,8 @@
         "drupal/video_embed_field": "^1.5",
         "drupal/views_slideshow": "^4.6",
         "drupal/views_templates": "^1.0@alpha",
-        "drupal/bootstrap": "^3.7"
+        "drupal/bootstrap": "^3.7",
+        "drupal/bootstrap_layouts": "^5.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
