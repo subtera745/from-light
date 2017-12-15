@@ -43,6 +43,15 @@ services:
     networks:
       - connector
 
+  sass:
+    image: antonienko/compass-watch
+    container_name: sass
+    mem_limit: 512M
+    env_file: environment
+    volumes:
+      - ./web/themes/custom/first:/src
+    command: ['watch', '--poll', '/src']
+
 networks:
   connector:
 
