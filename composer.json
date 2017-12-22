@@ -38,7 +38,9 @@
         "drupal/views_slideshow": "^4.6",
         "drupal/views_templates": "^1.0@alpha",
         "drupal/bootstrap": "^3.7",
-        "drupal/bootstrap_layouts": "^5.0"
+        "drupal/bootstrap_layouts": "^5.0",
+        "drupal/views_bootstrap": "^3.0",
+        "drupal/entity_pager": "^1.0@alpha"
     },
     "require-dev": {
         "behat/mink": "~1.7",
