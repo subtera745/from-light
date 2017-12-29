@@ -6,3 +6,64 @@
 
 // Base-theme overrides.
 @import 'overrides';
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
+
+.field--name-node-title {
+    background: lightblue;
+    text-align: right;
+}
+
+h2 {
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.field--name-field-art {
+    left: 50%;
+    top-margin:5%;
+}
+
+.navbar-nav{
+    text-align: right;
+    align-content: end;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.navbar-brand {
+    color: black;
+    background: lime;
+}
+
+.region-content {
+    margin-top: 25px;
+    background-color:aqua;
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*.col-sm-12 {
+    
+background-color: blueviolet;
+}*/

@@ -16,7 +16,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Raleway:300");
 /* line 9, ../bootstrap/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -9612,66 +9611,3 @@ p:last-child,
 .help-block:first-child, .control-group .help-inline:first-child {
   margin-top: 0;
 }
-
-/* line 14, ../scss/style.scss */
-.field--name-node-title {
-  background: lightblue;
-  text-align: right;
-}
-
-/* line 19, ../scss/style.scss */
-h2 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.6em;
-  line-height: 1.2em;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: .06em;
-  font-weight: 300;
-  font-style: normal;
-}
-
-/* line 31, ../scss/style.scss */
-.field--name-field-art {
-  left: 50%;
-  top-margin: 5%;
-}
-
-/* line 36, ../scss/style.scss */
-.navbar-nav {
-  text-align: right;
-  align-content: end;
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: .06em;
-  font-weight: 300;
-  font-style: normal;
-}
-
-/* line 47, ../scss/style.scss */
-.navbar-brand {
-  color: black;
-  background: lime;
-}
-
-/* line 52, ../scss/style.scss */
-.region-content {
-  margin-top: 25px;
-  background-color: aqua;
-  margin-bottom: 25px;
-}
-
-/* line 58, ../scss/style.scss */
-p {
-  font-family: 'Raleway', sans-serif;
-  text-decoration: none;
-  letter-spacing: .06em;
-  font-weight: 300;
-  font-style: normal;
-}
-
-/*.col-sm-12 {
-    
-background-color: blueviolet;
-}*/
