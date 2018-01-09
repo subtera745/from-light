@@ -40,7 +40,8 @@
         "drupal/bootstrap": "^3.7",
         "drupal/bootstrap_layouts": "^5.0",
         "drupal/views_bootstrap": "^3.0",
-        "drupal/entity_pager": "^1.0@alpha"
+        "drupal/entity_pager": "^1.0@alpha",
+        "drupal/bootstrap_carousel_if": "^3.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
