@@ -41,7 +41,16 @@
         "drupal/bootstrap_layouts": "^5.0",
         "drupal/views_bootstrap": "^3.0",
         "drupal/entity_pager": "^1.0@alpha",
-        "drupal/bootstrap_carousel_if": "^3.0"
+        "drupal/bootstrap_carousel_if": "^3.0",
+        "drupal/colorbox": "^1.4",
+        "drupal/colorbox_inline": "^1.0",
+        "drupal/colorbox_field_formatter": "^1.0",
+        "drupal/photos": "^4.0@RC",
+        "drupal/bootstrap_basic_image_gallery": "^1.0",
+        "drupal/slick": "^1.0",
+        "drupal/blazy": "^1.0@RC",
+        "drupal/slick_media": "^1.0",
+        "drupal/media_entity_image": "^1.2"
     },
     "require-dev": {
         "behat/mink": "~1.7",
