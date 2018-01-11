@@ -7,95 +7,10 @@
 // Base-theme overrides.
 @import 'overrides';
 
+//lightgallery styling
+@import 'component/gallery';
+
+//navbar styling
+@import 'component/navbarheader';
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300');
-
-
-.field--name-node-title {
-    background: lightblue;
-    text-align: right;
-}
-
-h2 {
-    
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.6em;
-    line-height: 1.2em;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: .06em;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.field--name-field-art {
-    left: 50%;
-    top-margin:5%;
-}
-
-.navbar-nav{
-    text-align: right;
-    align-content: end;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: .06em;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.navbar-brand {
-    color: black;
-    background: lime;
-}
-
-.region-content {
-    margin-top: 25px;
-    background-color:aqua;
-    margin-bottom: 25px;
-}
-
-p {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    letter-spacing: .06em;
-    font-weight: 300;
-    font-style: normal;
-}
-
-/*.col-sm-12 {
-    
-background-color: blueviolet;
-}*/
-
- .view-gallery-block {
-margin-top: 1em;
-} 
-
-.view-gallery-block img {
-width: 100%;
-border: 3px solid #337ab7;
-padding: 3px;
-border-radius: 10px;
-} 
-
-.view-gallery-block img:hover {
-border-color: #ddd;
-} 
-
-.view-gallery-block a {
-color: ##28df35;
-text-decoration: none;
-} 
-
-.view-gallery-block p {
-margin: 0 0 10px;
-display: inline;
-position: relative;
-bottom: 60px;
-left: 6px;
-background: rgba(17, 17, 17, .5);
-color: #fff;
-padding: 0.4em;
-border-radius: 10px;
-} 
