@@ -1,4 +1,5 @@
 module:
+  addtoany: 0
   admin_toolbar: 0
   admin_toolbar_tools: 0
   block: 0
@@ -34,17 +35,31 @@ module:
   kint: 0
   layout_discovery: 0
   libraries: 0
+  lightgallery: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
+  metatag: 0
+  metatag_app_links: 0
+  metatag_dc: 0
+  metatag_dc_advanced: 0
+  metatag_facebook: 0
+  metatag_hreflang: 0
+  metatag_mobile: 0
+  metatag_twitter_cards: 0
+  metatag_verification: 0
+  metatag_views: 0
   node: 0
   options: 0
   page_cache: 0
+  path: 0
   poll: 0
   quickedit: 0
   responsive_image: 0
   search: 0
   shortcut: 0
+  social_media_links: 0
+  social_media_links_field: 0
   system: 0
   taxonomy: 0
   telephone: 0
@@ -57,6 +72,11 @@ module:
   views_slideshow_cycle: 0
   views_templates: 0
   views_ui: 0
+  webform: 0
+  webform_bootstrap: 0
+  webform_node: 0
+  webform_templates: 0
+  webform_ui: 0
   workflows: 0
   minimal: 1000
 theme:

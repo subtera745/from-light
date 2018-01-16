@@ -1,0 +1,8 @@
+uuid: 0ee45cf3-5695-4bfa-a207-2baf60165496
+langcode: en
+status: true
+dependencies: {  }
+id: social_media_header_block
+label: 'Social Media Header Block'
+revision: 0
+description: ''

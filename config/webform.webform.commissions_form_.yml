@@ -1,0 +1,131 @@
+uuid: bc7801aa-2bdd-415d-a79b-bb72e97a9e06
+langcode: en
+status: open
+dependencies: {  }
+open: null
+close: null
+uid: 1
+template: false
+id: commissions_form_
+title: 'Commissions Form'
+description: ''
+category: ''
+elements: "contact:\n  '#type': webform_contact\n  '#title': Contact\n  '#name__placeholder': 'August Doe'\n  '#name__required': true\n  '#company__access': false\n  '#email__placeholder': Email\n  '#email__required': true\n  '#phone__access': false\n  '#address__placeholder': 'Address required for shipping reasons'\n  '#address__required': true\n  '#address_2__required': true\n  '#city__required': true\n  '#state_province__type': webform_select_other\n  '#state_province__required': true\n  '#postal_code__required': true\n  '#country__required': true\nsubject:\n  '#type': textfield\n  '#title': Subject\n  '#description': 'What would you like created for you?'\n  '#title_display': before\n  '#description_display': before\n  '#placeholder': 'I would like a modern van gough'\ndeadline:\n  '#type': textfield\n  '#title': Deadline\n  '#description': 'Do you have a timeline for this project for when you would need it by?'\n  '#title_display': before\n  '#description_display': before\nimage_reference_placeholder:\n  '#type': textfield\n  '#title': 'image reference placeholder'\n  '#description': 'do you have an image you would like referenced?'\n  '#placeholder': 'placeholder for image upload field because idk how to et up a deal to uplaod an image via local host'\nterms_checkbox:\n  '#type': checkbox\n  '#title': 'Terms checkbox'\n  '#description': 'Have you read the Terms and Conditions?'\n  '#title_display': ''\n  '#description_display': before\n  '#required': true\n  '#required_error': 'Please read the terms and conditions'\n"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: form
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  form_submit_once: true
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_unsaved: true
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_login: false
+  form_login_message: ''
+  submission_label: ''
+  submission_log: false
+  submission_user_columns: {  }
+  submission_login: false
+  submission_login_message: ''
+  submission_exception_message: ''
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_start_label: ''
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: page
+  confirmation_title: ''
+  confirmation_message: ''
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers: {  }

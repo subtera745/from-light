@@ -1,0 +1,9 @@
+uuid: e54ae511-a68c-4ecb-bbba-c78949ff3eeb
+langcode: en
+status: true
+dependencies: {  }
+name: Medium
+vid: medium
+description: 'Medium of Artwork'
+hierarchy: 0
+weight: 0

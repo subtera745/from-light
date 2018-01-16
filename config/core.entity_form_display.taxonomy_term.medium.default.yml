@@ -1,0 +1,40 @@
+uuid: f2ee8357-0a8d-442e-9ea5-9cc2710601cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.medium.field_term_relation
+    - image.style.thumbnail
+    - taxonomy.vocabulary.medium
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: taxonomy_term.medium.default
+targetEntityType: taxonomy_term
+bundle: medium
+mode: default
+content:
+  field_term_relation:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true

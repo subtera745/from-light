@@ -1,0 +1,112 @@
+uuid: 3fc27b2c-9314-4f70-a2bb-dcae2a0d9721
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - first
+id: socialmedialinks
+theme: first
+region: header
+weight: -3
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'ARTIST = Christine Riutzel'
+  provider: social_media_links
+  label_display: visible
+  platforms:
+    behance:
+      value: ''
+      description: ''
+      weight: '-10'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-9'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-8'
+    instagram:
+      value: beautyfromlight
+      description: ''
+      weight: '-7'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-6'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-5'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-4'
+    pinterest:
+      value: beautyfromlight
+      description: ''
+      weight: '-3'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-2'
+    email:
+      value: ''
+      description: ''
+      weight: '-1'
+    facebook:
+      value: ''
+      description: ''
+      weight: '0'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '1'
+    twitter:
+      value: beautyfromlight
+      description: ''
+      weight: '2'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '3'
+    youtube:
+      value: ''
+      description: ''
+      weight: '4'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '5'
+    drupal:
+      value: ''
+      description: ''
+      weight: '6'
+    rss:
+      value: ''
+      description: ''
+      weight: '7'
+    github:
+      value: ''
+      description: ''
+      weight: '8'
+    contact:
+      value: ''
+      description: ''
+      weight: '9'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: _blank
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:3x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }
