@@ -1,9 +1,9 @@
 
 
-.field--name-node-title {
+/*.field--name-node-title {
     background: lightblue;
     text-align: right;
-}
+}*/
 
 h2 {
     
@@ -17,10 +17,10 @@ h2 {
     font-style: normal;
 }
 
-.field--name-field-art {
+/*.field--name-field-art {
     left: 50%;
     top-margin:5%;
-}
+}*/
 
 .navbar-nav{
     text-align: right;
@@ -31,12 +31,12 @@ h2 {
     letter-spacing: .06em;
     font-weight: 300;
     font-style: normal;
-    width: 100%;
+    /*width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly;*/
 }
 
 .navbar-brand {
@@ -52,10 +52,10 @@ h2 {
     
 }
 
-.region-content {
+/*.region-content {
     margin-top: 25px;
     margin-bottom: 25px;
-}
+}*/
 
 p {
     font-family: 'Raleway', sans-serif;
@@ -65,9 +65,21 @@ p {
     font-style: normal;
 }
 
-.region-header{
+#block-socialmedialinks {
+    display: inline-block;
+}
+
+.row div.col-sm-12 .region .region-header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+}
+
+.menu .nav .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
