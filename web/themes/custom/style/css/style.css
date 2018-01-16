@@ -1,0 +1,10 @@
+/*//lightgallery styling*/
+@import 'component/gallery.css';
+
+/*//navbar styling*/
+@import 'component/navbarheader.css';
+
+/*main page styling*/
+@import 'component/mainpage.css'
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');

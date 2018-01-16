@@ -1,11 +1,12 @@
-.homegallery .lightgallery {
+.lichgallery .lightgallery {
     
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+   
+   }
     
-    li {
+    .lichgallery .lightgallery li {
         padding: 1%;
     }
-}

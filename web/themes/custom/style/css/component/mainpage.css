@@ -1,0 +1,9 @@
+.layout-container {
+	width: 600px;
+	margin:0 auto;
+	background-color: green;
+}
+
+ul {
+	background-color: orange;
+}
