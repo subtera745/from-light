@@ -285,6 +285,7 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      css_class: homegallery
     cache_metadata:
       max-age: -1
       contexts:

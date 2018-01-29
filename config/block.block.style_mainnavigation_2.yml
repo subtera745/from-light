@@ -1,4 +1,4 @@
-uuid: 9444d4a4-f851-4f28-8cd5-ffd0e34c59d3
+uuid: a9bef203-e750-4ef9-8a70-f337bee5bfe8
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - bootstrap
-_core:
-  default_config_hash: GT_zYl7I9VAILH8OxMRe-VDvFadCDHxRcnmBc5xEmf0
-id: bootstrap_main_menu
-theme: bootstrap
-region: navigation_collapsible
-weight: 10
+    - style
+id: style_mainnavigation_2
+theme: style
+region: header
+weight: -1
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -22,5 +20,5 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 2
+  depth: 0
 visibility: {  }

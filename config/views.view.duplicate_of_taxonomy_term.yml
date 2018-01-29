@@ -1,17 +1,21 @@
-uuid: 07c23f40-93aa-4426-81ef-24ce7b4ac9d9
+uuid: dba73970-3256-4ab2-a765-dc41df47174a
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.storage.node.field_work
+    - image.style.teaser
   module:
+    - image
+    - lightgallery
     - node
     - taxonomy
     - user
 _core:
   default_config_hash: Gy5PaLdfFhtFSRqJxV-DBTF5AocKgNA2CsCNNEbvx4c
-id: taxonomy_term
-label: 'Taxonomy term'
+id: duplicate_of_taxonomy_term
+label: 'Duplicate of Taxonomy term'
 module: taxonomy
 description: 'Content belonging to a certain taxonomy term.'
 tag: default
@@ -284,6 +288,7 @@ display:
           relationship: none
           view_mode: default
       display_extenders: {  }
+      enabled: false
     cache_metadata:
       contexts:
         - 'languages:language_interface'
@@ -302,13 +307,189 @@ display:
         type: views_query
         options: {  }
       path: taxonomy/term/%
-      display_extenders: {  }
+      display_extenders:
+        metatag_display_extender: {  }
+      style:
+        type: lightgallery
+        options:
+          lightgallery:
+            thumb_field: field_work
+            image_field: field_work_1
+            title: ''
+            mode: lg-slide
+            preload: '1'
+            closable: 1
+            loop: 1
+            esc_key: 1
+            key_press: 1
+            controls: 1
+            mouse_wheel: 1
+            download: 1
+            counter: 1
+            drag: 1
+            touch: 1
+            thumbnails: 1
+            animate_thumb: 1
+            current_pager_position: middle
+            thumb_width: '100'
+            thumb_cont_height: '100'
+            autoplay: 1
+            pause: '5000'
+            progress_bar: 1
+            autoplay_controls: 1
+            full_screen: 1
+            pager: 1
+            zoom: 1
+            scale: '1'
+            hash: 1
+            gallery_id: '1'
+      defaults:
+        style: false
+        row: false
+        fields: false
+        css_class: false
+      row:
+        type: 'entity:node'
+        options:
+          view_mode: teaser
+      fields:
+        field_work:
+          id: field_work
+          table: node__field_work
+          field: field_work
+          relationship: none
+          group_type: group
+          admin_label: medium-teaser
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: teaser
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_work_1:
+          id: field_work_1
+          table: node__field_work
+          field: field_work
+          relationship: none
+          group_type: group
+          admin_label: medium-large
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: ''
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+      css_class: taxgallery
     cache_metadata:
       contexts:
+        - 'languages:language_content'
         - 'languages:language_interface'
         - url
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
       max-age: -1
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_work'

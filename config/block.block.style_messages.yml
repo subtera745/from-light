@@ -1,17 +1,17 @@
-uuid: bb704193-34dd-49a5-b4a4-ed3be4c4984b
+uuid: 6112af59-cf1b-4be7-9411-69b69fbfec3d
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
   theme:
-    - bootstrap
+    - style
 _core:
-  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
-id: bootstrap_messages
-theme: bootstrap
+  default_config_hash: 5MNdk3fpMKx_xxBTcz2T11DL4XEU1H5SgHl8BsYdFsA
+id: style_messages
+theme: style
 region: header
-weight: -50
+weight: 1
 provider: null
 plugin: system_messages_block
 settings:

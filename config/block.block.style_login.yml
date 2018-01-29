@@ -1,15 +1,15 @@
-uuid: 3dc514bf-f9bf-41f4-8d2c-6950bf12ee5d
+uuid: 7c63f9e9-9314-4236-b086-8e73f77024f4
 langcode: en
 status: false
 dependencies:
   module:
     - user
   theme:
-    - first
+    - style
 _core:
   default_config_hash: 4QlSnWBcxxKMIFRM8sbu_MjSkcp3NjGgnVrc-lynQHI
-id: first_login
-theme: first
+id: style_login
+theme: style
 region: header
 weight: 0
 provider: null

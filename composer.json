@@ -67,7 +67,7 @@
         "drupal/lightgallery": "^1.0",
         "drupal/social_media_links": "^2.6",
         "drupal/smtp": "^1.0@beta",
-        "drupal/webform": "^5.0@RC"
+        "drupal/webform": "^5.0@RC"       
     },
     "require-dev": {
         "behat/mink": "~1.7",

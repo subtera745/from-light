@@ -1,15 +1,15 @@
-uuid: c99906f1-770b-473c-9ce5-ea2116bf0449
+uuid: 84a00b79-57a7-4983-8cc3-85cab426b17b
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - first
+    - style
 _core:
   default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
-id: first_branding
-theme: first
+id: style_branding
+theme: style
 region: header
 weight: -2
 provider: null

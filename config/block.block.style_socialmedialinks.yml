@@ -1,13 +1,13 @@
-uuid: 3fc27b2c-9314-4f70-a2bb-dcae2a0d9721
+uuid: 4aeb1fbf-5398-475c-9ab7-f9d28313276e
 langcode: en
 status: true
 dependencies:
   module:
     - social_media_links
   theme:
-    - first
-id: socialmedialinks
-theme: first
+    - style
+id: style_socialmedialinks
+theme: style
 region: header
 weight: -3
 provider: null

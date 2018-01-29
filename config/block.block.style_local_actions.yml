@@ -1,13 +1,13 @@
-uuid: 06827891-ab7f-4486-8549-a4015d6b274d
+uuid: c5bb001c-81de-499c-8a0e-654f4289fd75
 langcode: en
 status: true
 dependencies:
   theme:
-    - first
+    - style
 _core:
   default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
-id: first_local_actions
-theme: first
+id: style_local_actions
+theme: style
 region: content
 weight: -4
 provider: null
